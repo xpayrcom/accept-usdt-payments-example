@@ -1,0 +1,29 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="color-scheme" content="light dark">
+  <title>Accept USDT with XPayr</title>
+  <link rel="stylesheet" href="/styles.css">
+</head>
+<body>
+  <main>
+    <header><a href="https://xpayr.com" aria-label="XPayr home">XPayr</a><span>Server-side checkout example</span></header>
+    <section aria-labelledby="title">
+      <p class="eyebrow">USDT CHECKOUT</p>
+      <h1 id="title">Accept USDT without exposing your API key.</h1>
+      <p class="lede">The browser requests a payment session from this server. Your customer completes payment on XPayr’s hosted checkout.</p>
+      <dl>
+        <div><dt>Product</dt><dd id="product">Loading</dd></div>
+        <div><dt>Amount</dt><dd id="amount">-</dd></div>
+        <div><dt>Network</dt><dd id="network">-</dd></div>
+      </dl>
+      <button id="checkout" type="button" disabled>Pay with USDT</button>
+      <p id="status" role="status" aria-live="polite"></p>
+    </section>
+    <aside><strong>Security boundary</strong><span>No merchant secret or wallet key is shipped to this page.</span></aside>
+  </main>
+  <script type="module" src="/app.js"></script>
+</body>
+</html>
