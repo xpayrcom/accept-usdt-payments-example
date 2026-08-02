@@ -17,6 +17,11 @@ Show the shortest secure path from a product page to an XPayr-hosted USDT checko
 - Server-side payment-session creation
 - Responsive checkout launcher with no client-side secret
 
+## Requirements
+
+- Node.js 18+
+- npm 9+
+
 ## Quick start
 
 ```bash
